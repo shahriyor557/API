@@ -1,0 +1,109 @@
+@import url("https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap");
+body {
+  background: #1f293a;
+  font-family: "Manrope";
+  color: white;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 100vh;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+body .wrapper {
+  margin: 0 auto;
+  position: relative;
+  padding: 48px 0;
+  max-width: 540px;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  background: #313a48;
+  border-radius: 10px;
+}
+
+body .wrapper b {
+  text-align: center;
+  margin-bottom: 25px;
+  font-size: 13px;
+  font-weight: 800;
+  line-height: 17.76px;
+  letter-spacing: 4.085713863372803px;
+  text-align: center;
+  color: #53ffaa;
+}
+
+body .wrapper p {
+  max-width: 444px;
+  width: 100%;
+  text-align: center;
+  font-size: 28px;
+  font-weight: 800;
+  line-height: 38.25px;
+  letter-spacing: -0.30000001192092896px;
+  text-align: center;
+}
+
+body .wrapper .play {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  gap: 16px;
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+body .wrapper .play div {
+  width: 196px;
+  height: 1px;
+  background: #4f5d74;
+}
+
+body .wrapper .btn {
+  position: absolute;
+  padding: 20px;
+  border-radius: 50%;
+  background: #53ffaa;
+  bottom: -32px;
+  border: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  cursor: pointer;
+}
+
+body .wrapper button:hover {
+  -webkit-transition: 0.2s;
+  transition: 0.2s;
+  -webkit-box-shadow: 0px 0px 50px 0px #53ffaa;
+          box-shadow: 0px 0px 50px 0px #53ffaa;
+}
+/*# sourceMappingURL=style.css.map */
